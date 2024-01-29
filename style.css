@@ -438,26 +438,25 @@ header.sticky {
 .add-to-cart span {
     position: absolute;
     right: 0;
-    top: 393px;
+    top: auto;
     font-size: 15px;
     padding: 10px;
-    background-color: rgb(157, 157, 198);
+    background-color: pink;
     border-radius: 50px;
     transition: all.30s;
+    bottom: 3px;
 }
 
 .add-to-cart span:hover {
     transform: scale(1.1);
     box-shadow: 3px 3px 5px rgb(103, 103, 103);
     border-radius: 20px;
-    background-color: #4e5656;
 }
 
 @media(max-width:500px) {
     .add-to-cart h2 {
         position: absolute;
         width: 500px;
-        top: 140px;
         right: 0;
     }
 }
